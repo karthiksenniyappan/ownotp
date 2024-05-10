@@ -5,15 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='ownotp',
-    version='0.0.1',
+    version='0.0.2',
     author='karthiksenniyappan',
     author_email='karthiksenniyappan76@gmail.com',
     description="Generate a time-based OTP using SHA-256 hashing algorithm",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/karthiksenniyappan/ownotp",
-    packages=setuptools.find_packages(where='src'),
-    package_dir={'': 'src'},
+    packages=['ownotp'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
