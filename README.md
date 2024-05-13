@@ -20,7 +20,10 @@ To change interval time pass the value in seconds.
 from ownotp.otp import generate_otp
 otp = generate_otp('your_own_secret', interval=120)
 ```
-To get 7 or 8 length otp.
+
+To generate different length OTP.
+
+Note: Minium 4 and Maximum 8 length will support. If condition not satisfied default length will take to generate OTP.
 ```python
 from ownotp.otp import generate_otp
 otp = generate_otp('your_own_secret', length=7)
