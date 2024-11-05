@@ -15,7 +15,7 @@ from ownotp.otp import generate_otp
 otp = generate_otp('your_own_secret')
 print(otp)
 ```
-To change interval time pass the value in seconds.
+To change interval time, pass the value in seconds.
 ```python
 from ownotp.otp import generate_otp
 otp = generate_otp('your_own_secret', interval=120)
