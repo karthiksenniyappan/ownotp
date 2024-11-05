@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='ownotp',
-    version='0.1.1',
+    version='0.1.2',
     author='karthiksenniyappan',
     author_email='karthiksenniyappan76@gmail.com',
     description="Generate a time-based OTP using SHA-256 hashing algorithm",
