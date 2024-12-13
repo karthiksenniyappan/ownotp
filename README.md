@@ -1,8 +1,6 @@
 # OTP Generator
 <div align="center">
-  Generate a time-based OTP using SHA-256 hashing algorithm. 
-  
-  [![Release version](https://img.shields.io/github/v/release/karthiksenniyappan/ownotp?color=brightgreen&label=Download&style=for-the-badge)](#installation "Installation")
+  Generate a time-based OTP using SHA-256 hashing algorithm.
 </div>
 
 
