@@ -1,7 +1,5 @@
 # OTP Generator
-<div align="center">
-  Generate a time-based OTP using SHA-256 hashing algorithm.
-</div>
+Generate a time-based OTP using SHA-256 hashing algorithm.
 
 
 ### Installation
